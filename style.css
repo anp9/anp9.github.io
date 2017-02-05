@@ -89,7 +89,7 @@ a { text-decoration: none;
 }
 /* --------------- /базовые настройки ---------*/
 header {
-	-o- background: linear-gradient(45deg, #052e6e, #4272b2, #7372d9, #7b6ec6, #6657aa, #825abd );
+	 background: -o-linear-gradient(45deg, #052e6e, #4272b2, #7372d9, #7b6ec6, #6657aa, #825abd );
 	background: linear-gradient(45deg, #052e6e, #4272b2, #7372d9, #7b6ec6, #6657aa, #825abd );
     background-color: #7544e1;
 	font-family: Washington, 'arial';
@@ -138,7 +138,7 @@ p {
 	background-color: #7AD0FF;
 	padding:10px;
 }
-#port{
+#port{text-align: center;
 	width:1000px;
 	margin-left: auto;
     margin-right: auto;
@@ -155,7 +155,42 @@ p {
 # im{
 	width:410px;
 }
-
+@media (max-width: 1000px){
+#s1{
+	width:670px;
+	}
+	#port{
+	width:500px;
+	}
+	.bl {text-align: center;
+	display: inline-block;
+	margin: 14px;
+	width:450px;
+	height:500px;
+	}
+	
+}
+@media (max-width: 660px){
+#s1{
+	width:320px;
+	}
+	
+}
+@media (max-width: 500px){
+#im{
+	width:320px;
+	}
+	#b2{
+		text-align: center;
+	}
+	.bl {
+	display: inline-block;
+	margin: 14px;
+	width:320px;
+	height:400px;
+	}
+	
+}
 @media (max-width: 767px){
 	li {
 	 display: block;
